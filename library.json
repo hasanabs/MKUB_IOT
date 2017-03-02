@@ -1,0 +1,12 @@
+{
+  "name": "MKUB_IOT",
+  "keywords": "wifi, ESP8266, Thingspeak, web, server, client",
+  "description": "MKUB_IOT adalah library ESP8266-01 untuk Arduino UNO",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/hasanabs/MKUB_IOT.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
