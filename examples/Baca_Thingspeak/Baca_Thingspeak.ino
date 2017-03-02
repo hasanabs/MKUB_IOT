@@ -24,7 +24,7 @@ void setup() {
 
 void loop() {
   //Pengambilan nilai dari Thingspeak yang akan dimasukan ke variabel Baca
-  String Baca = x.Ambil(ID_Chanel1, 1, ApikeyRead1); //NamaVariabel.Ambil(ID_Chanel1 (string), field (integer), ApikeyRead (string));
+  String Baca = IOT.Ambil(ID_Chanel1, 1, ApikeyRead1); //NamaVariabel.Ambil(ID_Chanel1 (string), field (integer), ApikeyRead (string));
   //Pengiriman nilai variabel Baca melalui serial dari board
   Serial.println(Baca);
   //Jeda sebesar 10 detik
