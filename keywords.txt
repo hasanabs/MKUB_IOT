@@ -12,7 +12,7 @@ baud	KEYWORD2
 konek	KEYWORD2
 kirim	KEYWORD2
 Ambil	KEYWORD2
-GantiBaudESP KEYWORD2
+GantiBaudESP	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
